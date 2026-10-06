@@ -10,7 +10,7 @@ import requests
 
 # Json Format:
 # "email":{
-# "Lecture": [Hours, Minutes, Seconds, Location]
+# "Lecture": [Hours, Minutes, Seconds, Location, Day]
 # }
 
 #Fetch the environment variables (This env exists on PythonAnywhere) 
