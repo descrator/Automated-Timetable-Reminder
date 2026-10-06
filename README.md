@@ -26,7 +26,7 @@ In the background, there is a constantly running Python script deployed on Pytho
 1. Clone the repository and install the dependencies mentioned in `requirements.txt`
 2. Edit the `run_bot.sh` file and add the correct addresses and keys
 3. Create a new project in Supabase and create a `timetables` table inside that project
-4. Set up the web app using the command `python app.py` and the bot using `run_bot.sh`.
+4. Set up the web app using the command `python app.py` and the bot using `bash run_bot.sh`.
 
 ## Upcoming Features
 1. OTP based user authentication.
