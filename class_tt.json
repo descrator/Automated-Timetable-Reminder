@@ -1,0 +1,12 @@
+{
+    "mrunank.bathe@gmail.com":{
+        "Physics Lab": [9, 0, 0, "NR112", "Monday"],
+        "Chemistry Lab": [9, 5, 0, "NR411", "Tuesday"],
+        "ED": [9, 13, 0, "NR112", "Tuesday"],
+        "PDS Lab": [9, 18, 0, "NR112", "Saturday"]
+    }, 
+  "mrunank26@kgpian.iitkgp.ac.in":{
+    "Physics of Waves": [8, 55, 0, "CRR", "Wednesday"],
+    "Basic Mechanics": [14, 30, 0, "NR 411", "Thursday"]
+  }
+}
