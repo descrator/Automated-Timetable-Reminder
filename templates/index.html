@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Academic Reminder Service</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #14222E; color: #F6FFFF; padding: 40px; }
+        .container { max-width: 500px; background: #47525E; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(1,1,1,0.1); margin: auto; }
+        h2 { text-align: center; color: #F6FFFF; }
+        h2 { text-align: center; color: #F6FFFF; }
+        h4 {text-align:center; color: #CBD6D9; }
+        label { display: block; margin-top: 15px; font-weight: bold; }
+        input, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #6E859F; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; background: #435C74; color: white; border: none; padding: 12px; margin-top: 20px; border-radius: 4px; font-size: 16px; cursor: pointer; }
+        button:hover { background: #324F63; }
+        .message { text-align: center; margin-top: 15px; font-weight: bold; color: #8BE78B; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Manually Add Your Class Schedule</h2>
+        <h3>Add Academic Reminder:</h3>
+        {% if message %}
+            <p class="message">{{ message }}</p>
+        {% endif %}
+        <form method="POST">
+            <label for="email">Student Email:</label>
+            <input type="email" id="email" name="email" required placeholder="JohnDoe@example.com">
+
+            <label for="subject">Subject Name:</label>
+            <input type="text" id="subject" name="subject" required placeholder="PDS, BEM, Advanced Calculus, etc">
+
+           <label for="day">Day of the Week:</label>
+            <select id="day" name="day" required>
+                <option value="" disabled selected>(Select the Day)</option>
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+
+            <label for="hour">Class Hour (24-hour format):</label>
+            <input type="number" id="hour" name="hour" min="0" max="23" required placeholder="14">
+
+            <label for="minute">Class Minute:</label>
+            <input type="number" id="minute" name="minute" min="0" max="59" required placeholder="45">
+
+            <label for="location">Location / Room:</label>
+            <input type="text" id="location" name="location" required placeholder="NR112, JC Bose Complex, etc">
+
+            <button type="submit">Submit</button><br><br>
+            <h4>CGS Task by Mrunank Bathe<h4>
+        </form>
+    </div>
+</body>
+</html>
