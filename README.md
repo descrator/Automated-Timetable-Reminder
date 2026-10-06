@@ -32,3 +32,8 @@ In the background, there is a constantly running Python script deployed on Pytho
 1. OTP based user authentication.
 2. An option to delete and edit existing schedules
 3. An option to upload the entire timetable, which would then be processed using Vision AI and updated on Supabase
+
+## Acknowledgements
+* [Flask YouTube Tutorials Playlist](https://youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX&si=jvC3sG5jIteDD7yC) by [Tech With Tim](https://www.youtube.com/@TechWithTim)
+* [README Templates and Examples](https://github.com/matiassingers/awesome-readme)
+* [Smtplib YoutTube Tutorial](https://www.youtube.com/watch?v=cjd9kEIxKHM&t=660s)
