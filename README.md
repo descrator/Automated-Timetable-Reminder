@@ -1,5 +1,6 @@
 # Automated Timetable Reminder 
 An automated reminder service which sends a reminder email to the student approximately 15 minutes before their class. 
+Website link: https://academicreminderservice.pythonanywhere.com/
 
 ## Description
 The project consists of a Flask web application where the student uploads their schedule through an HTML form, one class at a time. The data provided is then uploaded to a Supabase Database. 
